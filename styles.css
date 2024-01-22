@@ -424,7 +424,8 @@ a {
     color: #fff;
 }
 
-.btn-cart:hover, .small-textx:hover {
+.btn-cart:hover,
+.small-textx:hover {
     text-decoration: underline;
 }
 
@@ -445,7 +446,8 @@ a {
 
 @media (min-width: 1280px) {
 
-    .card-body, .p-4 {
+    .card-body,
+    .p-4 {
         width: 80%;
         margin: auto;
     }
@@ -456,8 +458,12 @@ a {
     color: #fff;
     font-size: 12px;
     font-weight: 600;
+    border: none;
 }
 
+.btn-checkout:hover {
+    color: rgb(183, 154, 154);
+}
 
 @media (min-width: 990px) {
 
@@ -480,4 +486,75 @@ a {
     .my-bag {
         font-size: 47px;
     }
+}
+
+.form-checkout {
+    font-size: 13px;
+    padding: 11px;
+}
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    padding: 10px;
+    border-color: #e0e0e0;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.dropdown-options.show-options {
+    display: block;
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.option:hover {
+    background-color: #f5f5f5;
+}
+
+.acp-text p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.acp-text p strong {
+    font-weight: 500;
+}
+
+@media (min-width: 990px) {
+
+
+.my-bag {
+    font-size: 36px;
+}
+}
+
+@media (min-width: 1120px) {
+
+
+.my-bag {
+    font-size: 42px;
+}
+}
+
+@media (min-width: 1280px) {
+
+.my-bag {
+    font-size: 47px;
+}
 }
