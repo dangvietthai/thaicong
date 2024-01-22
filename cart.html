@@ -22,11 +22,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
     <!-- BST5 -->
     <link rel="stylesheet" href="css/mdb.min.css" />
     <link rel="stylesheet" href="styles.css">
@@ -135,121 +130,138 @@
         <!-- Navbar -->
     </header>
 
-    <div class="container px-0 overflow-hidden">
-        <div class="py-3 d-none d-lg-block">
-            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">TRANG CHỦ</a></li>
-                    <li class="breadcrumb-item"><a href="#">SẢN PHẨM</a></li>
-                    <li class="breadcrumb-item"><a href="#">QUÀ TẶNG</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">HỘP LÌ XÌ ĐỎ, GỒM 6 BAO LÌ XÌ VÀ 6 THIỆP CHÚC
-                    </li>
 
-                </ol>
-            </nav>
-            <hr>
-        </div>
-
-        <section class="py-4 ms-lg-0 ms-2">
-            <div class="container">
-                <div class="row gx-5">
-                    <div style="padding-left: 11px;" class="col-lg-1 d-flex flex-column mb-3 d-none d-lg-block">
-                        <a href="">
-                            <img class="tab-img" width="100" height="100" src="img/lixi1.jpeg" />
-                        </a>
-                        <a href="">
-                            <img class="tab-img" width="100" height="100" src="img/lixi2.jpeg" />
-                        </a>
-                        <a href="">
-                            <img class="tab-img" width="100" height="100" src="img/lixi3.jpeg" />
-                        </a>
-                        <a href="">
-                            <img class="tab-img" width="100" height="100" src="img/lixi4.jpeg" />
-                        </a>
+    <section style="padding-top:100px;">
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col">
+                    <div style="text-align: center; margin-bottom: 40px;">
+                        <p><span style="font-weight: 600; color: black;" class="h2 my-bag">GIỎ HÀNG CỦA
+                                BẠN</span></p>
+                        <p><span style="font-weight: 400;">Hiện đang có 2 sản phẩm</span></p>
                     </div>
-                    <aside class="col-lg-7">
-                        <div class="mb-3 d-flex">
-                            <img style="max-width: 100%; max-height: fit-content; margin: auto;" class="fit"
-                                src="img/lixi1.jpeg" />
-                        </div>
-
-                        <div class="d-flex mb-3 d-block d-lg-none">
-                            <a href="">
-                                <img class="tab-bottom-img" width="80" height="80" src="img/lixi1.jpeg" />
-                            </a>
-                            <a href="">
-                                <img class="tab-bottom-img" width="80" height="80" src="img/lixi2.jpeg" />
-                            </a>
-                            <a href="">
-                                <img class="tab-bottom-img" width="80" height="80" src="img/lixi3.jpeg" />
-                            </a>
-                            <a href="">
-                                <img class="tab-bottom-img" width="80" height="80" src="img/lixi4.jpeg" />
-                            </a>
-                        </div>
-                    </aside>
-
-                    <main class="col-lg-3">
-                        <div class="ps-lg-2">
-                            <h4 style="font-size: 36px; font-weight: 600;" class="title text-dark">
-                                HỘP LÌ XÌ ĐỎ, GỒM 6 BAO LÌ XÌ VÀ 6 THIỆP CHÚC
-                            </h4>
-
-                            <div class="my-4 ms-1">
-                                <p style="font-size: 22px; font-weight: 300;">399,000Đ</p>
-                            </div>
-
-                            <p>
-                            <ul>
-                                <li>Lì xì màu đỏ
-                                </li>
-                                <li>Bộ sản phẩm gồm:
-                                    <ul>
-                                        <li>6 bao lì xì</li>
-                                        <li>6 thiệp chúc</li>
-                                    </ul>
-                                </li>
-                                <li>Sản xuất tại Việt Nam
-                                </li>
-                            </ul>
-                            </p>
-
-                            <hr />
-
-                            <div class="row mb-4">
-                                <!-- col.// -->
-                                <div class="col-md-4 col-6 mb-3">
-                                    <label class="mb-2 d-block">Số lượng</label>
-                                    <div class="input-group mb-3" style="width: 170px;">
-                                        <button class="btn btn-white border border-secondary shadow-none px-2 rounded-0"
-                                            type="button" id="button-addon1" data-mdb-ripple-color="dark"
-                                            onclick="onClickDown()">
-                                            <i class="fas fa-minus"></i>
-                                        </button>
-                                        <input style="width: 40px;" type="text" id="amount"
-                                            class="text-center border border-secondary" value="1"
-                                            aria-label="Example text with button addon"
-                                            aria-describedby="button-addon1" />
-                                        <button class="btn btn-white border border-secondary shadow-none px-2 rounded-0"
-                                            type="button" id="button-addon2" data-mdb-ripple-color="dark"
-                                            onclick="onClickUp()">
-                                            <i class="fas fa-plus"></i>
-                                        </button>
+                    <div class="card-body p-4">
+                        <div id="deleteMe" class="container-md w-100">
+                            <div class="row">
+                                <div style="width: fit-content;" class="col-md-1 col-3">
+                                    <img src="img/lixi1.jpeg"
+                                        style="width: 95px; height: 95px; border: 10px solid white;"
+                                        alt="Generic placeholder image">
+                                </div>
+                                <div class="col-md-4 col-8 d-flex">
+                                    <div>
+                                        <p class="small-text text-muted m-0">
+                                            Mã sản phẩm: TC12VNLIXIR</p>
+                                        <p class="lead-text m-0">HỘP LÌ XÌ ĐỎ, GỒM 6 BAO LÌ XÌ VÀ 6 THIỆP CHÚC</p>
+                                        <p class="small-text text-muted">Đơn giá: 399,000Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex justify-content-md-center">
+                                    <div>
+                                        <div class="input-group mb-3" style="width: 170px;">
+                                            <button
+                                                class="btn btn-white border border-secondary shadow-none px-2 rounded-0"
+                                                type="button" id="button-addon1" data-mdb-ripple-color="dark"
+                                                onclick="onClickDown()">
+                                                <i class="fas fa-minus"></i>
+                                            </button>
+                                            <input style="width: 40px;" type="text" id="amount"
+                                                class="text-center border border-secondary" value="1"
+                                                aria-label="Example text with button addon"
+                                                aria-describedby="button-addon1" />
+                                            <button
+                                                class="btn btn-white border border-secondary shadow-none px-2 rounded-0"
+                                                type="button" id="button-addon2" data-mdb-ripple-color="dark"
+                                                onclick="onClickUp()">
+                                                <i class="fas fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md d-flex justify-content-end">
+                                    <div>
+                                        <p class="small-text text-muted mb-2">Thành tiền: 399,000Đ</p>
+                                        <p style="text-align: right; font-size: 13px; font-weight: 300;"
+                                            onclick="deleteElement()" class="small-textx mb-0"><a href="#">XÓA</a></p>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#" style="background-color: black;" class="btn-cart btn rounded-0 shadow-0 py-3">
-                                <i class="me-1 fa fa-shopping-basket"></i> THÊM VÀO GIỎ HÀNG </a>
-                            <a href="cart.html" style="background-color: red;"
-                                class="btn-cart btn rounded-0 shadow-0 py-3">
-                                THANH TOÁN NGAY </a>
+                            <hr>
                         </div>
-                    </main>
+
+                        <div id="deleteMex" class="container-md w-100">
+                            <div class="row">
+                                <div style="width: fit-content;" class="col-md-1 col-3">
+                                    <img src="img/KHUNGTRANH2.jpg"
+                                        style="width: 95px; height: 95px; border: 10px solid white;"
+                                        alt="Generic placeholder image">
+                                </div>
+                                <div class="col-md-4 col-8 d-flex">
+                                    <div>
+                                        <p class="small-text text-muted m-0">
+                                            Mã sản phẩm: TC12VNLIXIR</p>
+                                        <p class="lead-text m-0">HỘP LÌ XÌ ĐỎ, GỒM 6 BAO LÌ XÌ VÀ 6 THIỆP CHÚC</p>
+                                        <p class="small-text text-muted">Đơn giá: 399,000Đ</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex justify-content-md-center">
+                                    <div>
+                                        <div class="input-group mb-3" style="width: 170px;">
+                                            <button
+                                                class="btn btn-white border border-secondary shadow-none px-2 rounded-0"
+                                                type="button" id="button-addon1" data-mdb-ripple-color="dark"
+                                                onclick="onClickDownx()">
+                                                <i class="fas fa-minus"></i>
+                                            </button>
+                                            <input style="width: 40px;" type="text" id="amountx"
+                                                class="text-center border border-secondary" value="1"
+                                                aria-label="Example text with button addon"
+                                                aria-describedby="button-addon1" />
+                                            <button
+                                                class="btn btn-white border border-secondary shadow-none px-2 rounded-0"
+                                                type="button" id="button-addon2" data-mdb-ripple-color="dark"
+                                                onclick="onClickUpx()">
+                                                <i class="fas fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md d-flex justify-content-end">
+                                    <div>
+                                        <p class="small-text text-muted mb-2">Thành tiền: 399,000Đ</p>
+                                        <p style="text-align: right; font-size: 13px; font-weight: 300;"
+                                            onclick="deleteElementx()" class="small-textx mb-0"><a href="#">XÓA</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+
+
+                    <div class="card-body p-4 pt-0">
+                        <div class="container-md w-100">
+                            <div class="row">
+                                <p class="mb-0 d-flex align-items-center justify-content-end">
+                                    <span class="small fs-6 text-muted me-2">Tổng cộng:</span> <span
+                                        class="lead fs-4 fw-light ">399,000Đ</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="d-flex justify-content-end p-4 pt-0">
+                            <button type="button" style="background-color: black;"
+                                class="btn btn-checkout shadow-none rounded-0 me-2">TIẾP TỤC MUA HÀNG</button>
+                            <button type="button" style="background-color: red;"
+                                class="btn btn-checkout shadow-none rounded-0">THANH TOÁN NGAY</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-    </div>
-    
+        </div>
+    </section>
+
     <section>
         <div class="bg-light">
             <!-- row -->
@@ -419,9 +431,6 @@
         </div>
     </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="js/scripts.js"></script>
 <!-- Fixed -->
 <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -456,6 +465,36 @@
     };
 </script>
 
+<script>
+    var clicksx = 1;
+
+    function onClickUpx() {
+        clicksx += 1;
+        document.getElementById("amountx").value = clicksx;
+    };
+
+    function onClickDownx() {
+        if (clicksx > 1) {
+            clicksx -= 1;
+            document.getElementById("amountx").value = clicksx;
+        }
+    };
+</script>
+
+<!-- delete-cart -->
+<script>
+    function deleteElement() {
+        var elementToDelete = document.getElementById('deleteMe');
+        elementToDelete.remove();
+    }
+</script>
+
+<script>
+    function deleteElementx() {
+        var elementToDelete = document.getElementById('deleteMex');
+        elementToDelete.remove();
+    }
+</script>
 <!-- CDN -->
 <script type="text/javascript" src="js/mdb.umd.min.js"></script>
 <script type="text/javascript"></script>

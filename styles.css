@@ -191,6 +191,12 @@ body {
     width: 50%;
 }
 
+.img-client-border {
+    text-align: center;
+    border-bottom: 1px solid rgba(178, 128, 128, 0.5);
+    border-left: 1px solid rgba(178, 128, 128, 0.5);
+}
+
 #clients {
     padding: 60px 0;
 
@@ -323,7 +329,6 @@ a {
 .text-footer:hover {
     text-decoration: underline;
     color: white;
-    opacity: none;
 }
 
 .topl-product {
@@ -398,7 +403,7 @@ a {
     .col-lg-1 {
         padding-right: 7rem !important;
     }
-}   
+}
 
 .tab-bottom-img {
     margin-top: 10px;
@@ -409,7 +414,7 @@ a {
     .ps-lg-2 {
         width: 135%;
     }
-}   
+}
 
 .btn-cart {
     width: 100%;
@@ -419,6 +424,60 @@ a {
     color: #fff;
 }
 
-.btn-cart:hover {
+.btn-cart:hover, .small-textx:hover {
     text-decoration: underline;
+}
+
+
+.small-textx a {
+    color: #000;
+}
+
+.small-text {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.lead-text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (min-width: 1280px) {
+
+    .card-body, .p-4 {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+.btn-checkout {
+    padding: 16px 30px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+@media (min-width: 990px) {
+
+
+    .my-bag {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 1120px) {
+
+
+    .my-bag {
+        font-size: 42px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .my-bag {
+        font-size: 47px;
+    }
 }
