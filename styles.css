@@ -539,22 +539,64 @@ a {
 @media (min-width: 990px) {
 
 
-.my-bag {
-    font-size: 36px;
-}
+    .my-bag {
+        font-size: 36px;
+    }
 }
 
 @media (min-width: 1120px) {
 
 
-.my-bag {
-    font-size: 42px;
-}
+    .my-bag {
+        font-size: 42px;
+    }
 }
 
 @media (min-width: 1280px) {
 
-.my-bag {
-    font-size: 47px;
+    .my-bag {
+        font-size: 47px;
+    }
 }
+
+.login-form {
+    padding: 5%;
+}
+
+.login-form h4 {
+    color: #000;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.btnSubmit {
+    width: fit-content;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form .btnSubmit {
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+}
+
+
+.login-form .note-login {
+    color: #000;
+    font-weight: 200;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.login-form .form-group .note-login:hover {
+    text-decoration: underline;
+}
+
+.inp-login {
+    padding: 16px;
+    margin: 5px 0 13px 0;
+    background-color: transparent;
+    font-size: 11px;
 }
